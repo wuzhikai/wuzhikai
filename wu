@@ -1,0 +1,101 @@
+<!DOCTYPE html>  
+<html lang="zh">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>自我介绍</title>  
+    <link rel="stylesheet" href="styles.css">  
+</head>  
+<body>  
+    <header>  
+        <h1>欢迎来到我的个人网站</h1>  
+    </header>  
+    <nav>  
+        <ul>  
+            <li><a href="#about">关于我</a></li>  
+            <li><a href="#skills">技能</a></li>  
+            <li><a href="#contact">联系我</a></li>  
+        </ul>  
+    </nav>  
+    <main>  
+        <section id="about">  
+            <h2>关于我</h2>  
+            <p>你好，我叫[你的名字]。我是一名[你的职业或学习领域]。</p>  
+            <p>我对[你的兴趣或爱好]充满热情，并且我喜欢[分享你的一些经历或特长]。</p>  
+        </section>  
+
+        <section id="skills">  
+            <h2>技能</h2>  
+            <ul>  
+                <li>技能 1</li>  
+                <li>技能 2</li>  
+                <li>技能 3</li>  
+                <li>技能 4</li>  
+            </ul>  
+        </section>  
+
+        <section id="contact">  
+            <h2>联系我</h2>  
+            <p>电子邮件：<a href="mailto:your-email@example.com">your-email@example.com</a></p>  
+            <p>社交媒体链接：<a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></p>  
+        </section>  
+    </main>  
+    <footer>  
+        <p>&copy; 2024 [你的名字]。保留所有权利。</p>  
+    </footer>  
+    <script src="script.js"></script>  
+</body>  
+</html>
+body {  
+    font-family: Arial, sans-serif;  
+    margin: 0;  
+    padding: 0;  
+    background-color: #f4f4f4;  
+    color: #333;  
+}  
+
+header {  
+    background-color: #4CAF50;  
+    color: white;  
+    padding: 1em 0;  
+    text-align: center;  
+}  
+
+nav {  
+    margin: 1em 0;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin-right: 15px;  
+}  
+
+nav a {  
+    text-decoration: none;  
+    color: #4CAF50;  
+}  
+
+main {  
+    padding: 20px;  
+    max-width: 800px;  
+    margin: auto;  
+    background-color: white;  
+    border-radius: 5px;  
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);  
+}  
+
+section {  
+    margin-bottom: 20px;  
+}  
+
+footer {  
+    text-align: center;  
+    padding: 1em 0;  
+    background-color: #4CAF50;  
+    color: white;  
+}
